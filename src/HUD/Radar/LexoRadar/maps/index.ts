@@ -10,6 +10,7 @@ import de_shortnuke from './de_shortnuke';
 import de_lake from './de_lake';
 import de_guard from './de_guard';
 import de_elysion from './de_elysion';
+import de_cbble from './de_cbble';
 
 
 export interface ScaleConfig {
@@ -49,7 +50,8 @@ const maps: { [key: string] : MapConfig} = {
     de_vertigo,
 	de_elysion,
 	de_lake,
-	de_guard
+	de_guard,
+    de_cbble
 }
 
 export default maps;
